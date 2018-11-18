@@ -1,0 +1,8 @@
+<% if(user !== null) {%> 
+    <h1>Welcome <%= user.name %></h1>
+    <% } else { %>
+        <h1>Welcome</h1>
+    <% } %>
+
+    <a href="/public">Public Area</a>
+    <a href="/private">Restricted Area</a>    

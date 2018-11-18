@@ -1,0 +1,27 @@
+ul{
+    background-color: dimgrey;
+    height: 80px;
+    text-align: right;
+    
+}
+
+li{
+    list-style: none;
+    display:  table-cell;
+    padding: 20px;
+    justify-self: right;
+   
+}
+
+li a {
+   
+    text-decoration: none;
+    color:white;
+    font-size: 2em;
+    font-weight: bold;
+ 
+}
+li a:hover{
+    color: burlywood;
+    cursor: pointer;
+}
